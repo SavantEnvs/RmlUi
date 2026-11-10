@@ -1,0 +1,1 @@
+true || false ? true && 3==1+2 ? 'yes' : 'no' : 'n'

@@ -1,0 +1,10 @@
+project: savantenvs/RmlUi
+target: fuzz_style_sheet
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_style_sheet/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_style_sheet
+    libfuzzer: true
+    timeout: 30
+    dictionary: /mayhem/mayhem/fuzz_style_sheet/fuzz_style_sheet.dict

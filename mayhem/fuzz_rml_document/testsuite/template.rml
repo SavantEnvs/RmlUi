@@ -1,0 +1,5 @@
+<rml><head><link type="text/template" href="x"/><style>
+@media (min-width: 100px) { div { display: flex; } }
+@keyframes k { from { opacity: 0 } to { opacity: 1 } }
+div { animation: 1s k infinite; transition: width 1s; box-shadow: 2px 2px 3px red; filter: blur(2px) opacity(0.5); }
+</style></head><body><div style="decorator: gradient(horizontal red blue); transform: rotate(10deg)"><table><tr><td>a</td><td>b</td></tr></table><select><option>1</option></select><textarea>t</textarea></div></body></rml>

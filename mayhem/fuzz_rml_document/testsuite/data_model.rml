@@ -1,0 +1,4 @@
+<rml><head><style>body { font-family: LatoLatin; width: 300px; } .red { color: red; }</style></head>
+<body data-model="fuzz"><p data-if="b" data-class-red="i > 1">{{ s | to_upper }}</p>
+<div data-for="it : items"><span data-attr-title="it.name">{{ it.name }} x{{ it.qty }}</span></div>
+<input type="text" data-value="s"/><button data-event-click="ev(i)">go</button></body></rml>

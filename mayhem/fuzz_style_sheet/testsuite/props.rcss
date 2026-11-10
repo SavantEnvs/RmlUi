@@ -1,0 +1,6 @@
+@font-face { font-family: x; src: url(x.ttf); }
+@spritesheet s { src: image.png; a: 0px 0px 10px 10px; }
+@keyframes k { 0% { width: 10px } 50% { width: 50px; } 100% { width: 20dp } }
+@media (orientation: landscape) and (min-width: 300px) { div { margin: 1em 2em 3% auto; } }
+div > p + span ~ a:hover::after, #id.cls[attr="v"]:nth-child(2n+1):not(.x) { background: #fff linear-gradient(red, blue); border-radius: 4px 5px; display: flex; flex: 1 1 10px; gap: 4px; }
+p { font: bold 12px/1.4 LatoLatin; text-align: center; transform: translate(10px, 5px); mask-image: radial-gradient(red, blue); decorator: ninepatch(a, b) ; }
